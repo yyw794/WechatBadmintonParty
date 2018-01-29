@@ -1,0 +1,7 @@
+<!--pages/partyPersons/partyPersons.wxml-->
+<view class='container'>
+  <!--<button bindtap='getPartyPersons'>报名</button>-->
+  <text>{{myInfo.nickName}}</text>
+  <text>{{partyName}}</text>
+</view>
+

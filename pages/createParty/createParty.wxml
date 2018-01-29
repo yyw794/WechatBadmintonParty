@@ -1,0 +1,7 @@
+<!--pages/createParty/createParty.wxml-->
+
+
+<view class='container'>创建你的活动
+  <input placeholder="输入你的活动名称" confirm-type='send' bindchange='createParty'></input>
+  <!-- <button bindtap='createParty'>确认</button> -->
+</view>

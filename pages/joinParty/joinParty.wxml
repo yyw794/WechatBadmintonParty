@@ -1,0 +1,6 @@
+<!--pages/joinParty/joinParty.wxml-->
+<view class='container'>
+  <block wx:for="{{allParties}}" wx:for-item="party" wx:key>
+      <button data-party="{{party}}"  bindtap='storePartyName'>{{index + 1}}. {{party}}</button>
+  </block>  
+</view>
